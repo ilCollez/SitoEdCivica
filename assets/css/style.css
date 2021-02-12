@@ -1,0 +1,42 @@
+.header > .col:nth-child(2) {
+    justify-content: flex-end;
+}
+
+#main-title {
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+}
+
+#container > .col {
+    justify-content: center;
+}
+
+.text-center-childs > * {
+    text-align: center;
+}
+
+#container > .col > div {
+    display: flex;
+    justify-content: center;
+}
+
+.col > div > a > #italia {
+    max-width: 50%;
+    height: auto;
+}
+
+.col > div > a > #etiopia {
+    max-width: 50%;
+    height: auto;
+}
+
+#italia, #etiopia {
+    transition: 0.5s;
+}
+
+#italia:hover, #etiopia:hover {
+    transform: translateY(-20px);
+}

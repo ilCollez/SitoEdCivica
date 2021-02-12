@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+    background-color: #E09F3E;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    color: #335C67;     
+}
+
+p {
+    color: white;
+}
+
+a {
+    display: contents;
+}
+
+.header {
+    
+    background-color: rgba(199, 41, 12, 0.5);
+    height: 7.5%;
+    
+    left: 0;
+    right: 0;
+
+    margin: 10px;
+
+    position: fixed;
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    -webkit-animation: fadeInDown 1s;
+            animation: fadeInDown 1s;
+}
+
+.header-spacing {
+    height: 7.5%;
+}
+
+.footer {
+    bottom: 0;
+    height: 5%;
+    
+    left: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer > p {
+    text-align: center;
+}
+
+#switchlang {
+    width: 50px;
+    float: right;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.col {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#home {
+    margin: 10px;
+    margin-left: 15px;
+}
+
+#progetto {
+    display: initial;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+
+    background-color: #0F47AE;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}

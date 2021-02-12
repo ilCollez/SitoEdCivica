@@ -1,0 +1,51 @@
+.nation-title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nation-title {
+    font-size: 95px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    -webkit-animation: slideInLeft;
+    
+            animation: slideInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+
+.header > div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > div:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.header > #redirects {
+    flex-direction: row;
+}
+
+.header > #redirects > a:not(#dropdownicon) {
+    display: block;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    
+    background-color: #0F47AE;
+}
+
+.header > div:nth-child(3) {
+    justify-content: flex-end;
+}
